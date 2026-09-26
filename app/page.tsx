@@ -18,6 +18,10 @@ export default async function Home() {
         <div className="flex items-center gap-5"><button aria-label="Search"><Search className="size-[18px]" /></button><button aria-label="Shopping bag"><ShoppingBag className="size-[18px]" /></button></div>
       </header>
 
+      <section aria-label="Error 404 storefront" className="mb-10 border-y-2 border-foreground bg-foreground lg:mb-16">
+        <Image src="/images/error-404-banner.png" alt="Error 404 — a neon retro electronics storefront at sunset with palm trees, a cassette, floppy disk, and a smiling vintage computer" width={1983} height={793} priority sizes="100vw" className="block h-auto w-full" />
+      </section>
+
       <section id="top" className="mx-auto grid max-w-7xl gap-3 px-5 pb-14 lg:grid-cols-[1.05fr_.95fr] lg:px-8 lg:pb-24">
         <div className="flex min-h-[470px] flex-col justify-between border-2 border-foreground bg-accent p-7 shadow-[8px_8px_0_var(--foreground)] sm:p-12 lg:min-h-[620px] lg:p-16">
           <p className="text-xs font-medium uppercase tracking-[0.22em] text-muted-foreground">The everyday tech edit</p>
